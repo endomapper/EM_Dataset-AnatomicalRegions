@@ -1,5 +1,5 @@
 # Instalation
-
+- Download the EfficientNet model from the [Github](https://github.com/google/automl/tree/master/efficientnetv2) and added into the efficient folder.
 - Download the checkpoint for the EfficientNet [ckpt](https://storage.googleapis.com/cloud-tpu-checkpoints/efficientnet/v2/efficientnetv2-m.tgz) and unzip it in the efficientnetv2-m folder.
 - Download the Anatomical Regions files from the Endomapper dataset and the video into the Data Folder.
 - Extract the data with the Extract.sh script and create the dataset structure using the Python script CreateDataset.py
